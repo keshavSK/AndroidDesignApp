@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AndroidDesignApp</string>
+    <string name="new_user">New user?</string>
+    <string name="sign_in">Sign In</string>
 </resources>
