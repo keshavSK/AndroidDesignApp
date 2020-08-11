@@ -1,6 +1,6 @@
 # AndroidDesignApp
 Android application design
-In that we try to design android xml design.
+In that we try to design android xml design: 
     LinearLayout
     RelativeLayout
     Scrollview
