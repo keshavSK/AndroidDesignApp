@@ -3,14 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginLeft="50dp"
-    android:layout_marginRight="50dp"
     android:orientation="vertical"
+    android:weightSum="4"
     tools:context=".MainActivity">
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
         android:background="@color/colorPrimary"
         android:text="Login"
         android:textColor="@color/colorWhite">
@@ -18,18 +18,32 @@
     </Button>
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
         android:background="@color/colorAccent"
         android:text="Sign up">
 
     </Button>
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:textSize="12sp"
         android:background="@color/colorPrimaryDark"
-        android:text="Forgot Password"
+        android:text="Forgot"
+        android:textColor="@color/colorWhite">
+
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:textSize="12sp"
+        android:background="@color/colorBlack"
+        android:text="Password"
         android:textColor="@color/colorWhite">
 
     </Button>
