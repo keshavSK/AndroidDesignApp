@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".RelativeLayoutActivity">
+
+    <Button
+        android:id="@+id/btnButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:background="@color/colorGreen"
+        android:text="Button 1">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/btnButton1"
+        android:background="@color/colorGreen"
+        android:text="Button 2">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnButton1"
+        android:background="@color/colorPrimaryDark"
+        android:text="Button 3">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnButton1"
+        android:layout_marginStart="10dp"
+        android:layout_toRightOf="@id/btnButton3"
+        android:background="@color/colorPrimaryDark"
+        android:text="Button 4">
+
+    </Button>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button 5">
+
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button 5">
+
+        </Button>
+
+    </LinearLayout>
+
+</RelativeLayout>
