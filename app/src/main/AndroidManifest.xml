@@ -11,16 +11,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RecyclerViewActivity">
+        <activity android:name=".StudentListActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginScreenWithRelativeLayoutActivity"></activity>
+        <activity android:name=".RecyclerViewActivity"></activity>
+        <activity android:name=".LoginScreenWithRelativeLayoutActivity" />
         <activity android:name=".RelativeLayoutActivity" />
-        <activity android:name=".LinearLayoutGravityActivity"></activity>
+        <activity android:name=".LinearLayoutGravityActivity" />
         <activity android:name=".LoginScreenActivity">
 
         </activity>

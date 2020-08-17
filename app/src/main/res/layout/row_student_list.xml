@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/rowStudentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tushar"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="5dp"
+        >
+
+    </TextView>
+
+</LinearLayout>
