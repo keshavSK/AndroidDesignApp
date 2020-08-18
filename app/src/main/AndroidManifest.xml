@@ -11,20 +11,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".StudentListActivity">
+        <activity android:name=".StudentModelRecyclerViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RecyclerViewActivity"></activity>
+        <activity android:name=".StudentListActivity">
+
+        </activity>
+        <activity android:name=".RecyclerViewActivity" />
         <activity android:name=".LoginScreenWithRelativeLayoutActivity" />
         <activity android:name=".RelativeLayoutActivity" />
         <activity android:name=".LinearLayoutGravityActivity" />
-        <activity android:name=".LoginScreenActivity">
-
-        </activity>
+        <activity android:name=".LoginScreenActivity"></activity>
         <activity android:name=".MainActivity" />
     </application>
 
