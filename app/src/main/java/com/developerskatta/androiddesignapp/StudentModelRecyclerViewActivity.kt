@@ -2,6 +2,7 @@ package com.developerskatta.androiddesignapp
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import android.support.v7.widget.GridLayoutManager
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 import android.widget.LinearLayout
@@ -17,7 +18,8 @@ class StudentModelRecyclerViewActivity : AppCompatActivity() {
         setContentView(R.layout.activity_student_model_recycler_view)
         recyclerView = findViewById(R.id.recyclerViewStudentModel)
         //set layout manager to recyclerview
-        recyclerView?.layoutManager = LinearLayoutManager(this, LinearLayout.VERTICAL, false)
+         recyclerView?.layoutManager = LinearLayoutManager(this, LinearLayout.VERTICAL, false)
+      //  recyclerView?.layoutManager = GridLayoutManager(this, 2, LinearLayout.VERTICAL, false)
         // create student list
         val studentModel = StudentModel()
         studentModel.studentName = "Megha"
