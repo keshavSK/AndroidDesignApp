@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import com.developerskatta.androiddesignapp.R
-import com.developerskatta.androiddesignapp.models.GridModel
+import com.developerskatta.androiddesignapp.models.data_models.GridModel
 
 class GridAdapter(val gridList: ArrayList<GridModel>) :
     RecyclerView.Adapter<GridAdapter.ViewHolder>() {

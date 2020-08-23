@@ -1,4 +1,4 @@
-package com.developerskatta.androiddesignapp.models
+package com.developerskatta.androiddesignapp.models.data_models
 
 class StudentModel {
     var studentId: Int? = null

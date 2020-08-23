@@ -2,12 +2,11 @@ package com.developerskatta.androiddesignapp
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import android.support.v7.widget.GridLayoutManager
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 import android.widget.LinearLayout
 import com.developerskatta.androiddesignapp.adapters.StudentModelAdapter
-import com.developerskatta.androiddesignapp.models.StudentModel
+import com.developerskatta.androiddesignapp.models.data_models.StudentModel
 
 class StudentModelRecyclerViewActivity : AppCompatActivity() {
     var recyclerView: RecyclerView? = null
@@ -21,14 +20,16 @@ class StudentModelRecyclerViewActivity : AppCompatActivity() {
          recyclerView?.layoutManager = LinearLayoutManager(this, LinearLayout.VERTICAL, false)
       //  recyclerView?.layoutManager = GridLayoutManager(this, 2, LinearLayout.VERTICAL, false)
         // create student list
-        val studentModel = StudentModel()
+        val studentModel =
+            StudentModel()
         studentModel.studentName = "Megha"
         studentModel.studentLastName = "Bhutada"
         studentModel.studentEmail = "megha@gmail.com"
         studentModel.studentMobile = "1234567890"
         studentModel.studentImage = R.drawable.google_icon
         studentList.add(studentModel)
-        val studentModel1 = StudentModel()
+        val studentModel1 =
+            StudentModel()
         studentModel1.studentName = "Rajeshri"
         studentModel1.studentLastName = "Chaudhari"
         studentModel1.studentEmail = "Rajeshri@gmail.com"

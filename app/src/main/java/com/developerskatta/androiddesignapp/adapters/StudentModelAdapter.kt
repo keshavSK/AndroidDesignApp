@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import com.developerskatta.androiddesignapp.R
-import com.developerskatta.androiddesignapp.models.StudentModel
+import com.developerskatta.androiddesignapp.models.data_models.StudentModel
 
 // extent recyclerview adapter and create constructor
 class StudentModelAdapter(var studentList: ArrayList<StudentModel>) :
